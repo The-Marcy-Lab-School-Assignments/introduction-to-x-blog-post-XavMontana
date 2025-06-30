@@ -136,6 +136,10 @@ Phaser is a gaming framework, not a language so you can't really compare it to o
 
 Above is starter code for Phaser. As you can see, this is written in HTML, but if you see the code it has words like game, preload, create, img, update, and many more, similar to what vocab would be used in a video game. This is because Phaser is used to make video games, so the vocab and code for it would be video game based.
 
+## Why I chose Phaser
+
+Before I choose Phaser I was thinking about choosing Unity, but when doing research I knew that for slow learners, Phaser would be the best choice for me and others. Unity would have insist me of learning C++, which is a another language I would've had to learn in a span of a few weeks. But for Phaser, it is beginner friendly, which makes it easier to understand and get started on. Now, i'm not saying to always take the easy route, but when you only have a limited amount of time to get something done, the smartest choice may be to use resources that are easier to understand and less advanced, but can still get the job done.
+
 ## Summary
 
 What we talked about
@@ -144,5 +148,12 @@ What we talked about
 - How to get started
 - Key features of Phaser
 - Whats implemented into Phaser and some starter code
+- why I choose Phaser
 
 Phaser is a cool way to become a developer and start your own video game, and I hope this documentation helped you learn and understand it more. Thank you for reading!
+
+Links that helped me write this blog:
+
+- https://phaser.io/
+- https://www.geeksforgeeks.org/html/introduction-to-phaser-js/
+- https://learn.unity.com/course/create-with-code
