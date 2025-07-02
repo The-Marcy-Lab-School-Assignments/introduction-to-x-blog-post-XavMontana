@@ -6,6 +6,14 @@ By, Xavier Hertzog
 
 If your someone like me, this is probably your first time hearing about Phaser. As of right now, I am on the road of building my first ever game, and about a week or two ago I came across Phaser. This guide will help you learn about Phaser and the basics of how to use it.
 
+What we'll talk about:
+
+- About Phaser and how it's used
+- How to get started
+- Key features of Phaser
+- Whats implemented into Phaser and some starter code
+- Why I choose Phaser
+
 ## About Phaser
 
 Phaser is a popular HTML5 gaming framework that allows developers to create 2D games using languages JavaScript or TypeScript. It provides pre-written tools for physics engines, animations, audio, and asset management, making it quick and easy to make browser-based games. And it is also beginner friendly, with lots of tutorials, examples, and documentation you can learn from.
@@ -50,7 +58,7 @@ Alright, we just went over how to create a file using Phaser. So now, we will ta
 - Camera & Viewport - Good for zooming in, panning, following the player, and applying effects.
 - Sound - Has built-in audio sounds supported with Web Audio API.
 
-## Compare and Contrast
+## Beginner Code of Phaser
 
 Phaser is a gaming framework, not a language so you can't really compare it to other languages. But when using Phaser.js, which is basically using Phaser with JavaScript, the code can look a little different.
 
@@ -134,21 +142,18 @@ Phaser is a gaming framework, not a language so you can't really compare it to o
 </html>
 ```
 
-Above is starter code for Phaser. As you can see, this is written in HTML, but if you see the code it has words like game, preload, create, img, update, and many more, similar to what vocab would be used in a video game. This is because Phaser is used to make video games, so the vocab and code for it would be video game based.
+Above is starter code for Phaser. As you can see, this is written in HTML, but if you see the code it has words like game, preload, create, img, update, and many more, similar to what vocab would be used in a video game, and I'll go over what this means.
+
+- Canvas is a game level/object editor for Phaser, and you can use it to create levels, reuse objects, layout sprites, and other cool things.
+- Config is a JavaScript object that holds many setting of the game such as rendering, dimensions, setting the background color, and scenes.
+- The object is passed to new Phaser.game(config), making a new game instance, telling Phaser how the game should behave and what to put in it.
+- preload() loads up assets like images and sound, create() is where you add features, like sprites, animations, and other things, and lastly update() run continuously to handle game logic and user interactions.
 
 ## Why I chose Phaser
 
 Before I choose Phaser I was thinking about choosing Unity, but when doing research I knew that for slow learners, Phaser would be the best choice for me and others. Unity would have insist me of learning C++, which is a another language I would've had to learn in a span of a few weeks. But for Phaser, it is beginner friendly, which makes it easier to understand and get started on. Now, i'm not saying to always take the easy route, but when you only have a limited amount of time to get something done, the smartest choice may be to use resources that are easier to understand and less advanced, but can still get the job done.
 
 ## Summary
-
-What we talked about
-
-- About Phaser and how it's used
-- How to get started
-- Key features of Phaser
-- Whats implemented into Phaser and some starter code
-- why I choose Phaser
 
 Phaser is a cool way to become a developer and start your own video game, and I hope this documentation helped you learn and understand it more. Thank you for reading!
 
@@ -157,3 +162,4 @@ Links that helped me write this blog:
 - https://phaser.io/
 - https://www.geeksforgeeks.org/html/introduction-to-phaser-js/
 - https://learn.unity.com/course/create-with-code
+- https://help.phasereditor2d.com/v1/canvas.html
